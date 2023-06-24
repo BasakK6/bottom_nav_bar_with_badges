@@ -1,16 +1,20 @@
 # bottom_nav_bar_with_badges
 
-A new Flutter project.
+## Task Description
 
-## Getting Started
+1.  use this library https://pub.dev/packages/persistent_bottom_nav_bar and make a bottom navigation bar
+2. create 3 tabs each of must have badges on bottom navigation bar item on those badges counter number must be there as shown image attached with this task
 
-This project is a starting point for a Flutter application.
+3. Name of tabs must be notifications, cart , favourates. with badges and counts
+4. There must be two  buttons for increasing and descreasing respectively  on each screen on clicking that buttons count of that respective counter must get increase or decrease
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Used persistent_bottom_nav_bar package
+2. Used riverpod for state management
+3. Responsive UI (dynamic button sizes, auto size text on the badge count)
+4. No badge when the notification count for the specific page is 0.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screen Recording of the final product
+
+<img src="https://github.com/BasakK6/bottom_nav_bar_with_badges/blob/master/readme_assets/android_screen_recording.gif?raw=true" alt="UI screen recording" width="250"/>
